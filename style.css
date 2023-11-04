@@ -115,25 +115,40 @@ section:nth-child(2n+1){
     font-size: 3rem;
     text-justify: auto;
 }
-
+#skills{
+    display: flex;
+    flex-direction: column;
+}
 .skills-display{
     width: 75%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     padding: 5rem;
-
 }
 .skills-progress{
     width: 8rem;
     height: 1.4 rem;
     background-color: rgb(148, 147, 147);
-    border-radius: 0.8rem;
+    border-radius: 1rem;
     /* border: 2px solid black; */
 }
 .skills-progress > div{
     border-radius: 20px 0px 0px 20px;
+}
+
+.column1{
+    border: 2px solid red;
+    width: 100px;
+    height: 100px;
+    
+}
+.column2{
+    border: 2px solid red;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
 }
 .size{
      font-size: 50px;
@@ -142,9 +157,6 @@ section:nth-child(2n+1){
     color: white;
     font-size: 1rem;
     margin-left: 10px;
-}
-.skills-progress>div{
-    border-radius: 20px 0px 0px 20px;
 }
 .text-highlight{
     color: #2857a4;
@@ -156,8 +168,18 @@ section:nth-child(2n+1){
 .mb-blue{
     background-color: #2857a4;
 }
+.mb-light-blue{
+    background-color: #698abe;
+}
+.mb-green{
+    background-color: rgb(85, 130, 85);
+}
 .eighty-five-percent{
     width: 85%;
+    height: inherit;
+}
+.eighty-percent{
+    width: 80%;
     height: inherit;
 }
 
@@ -255,7 +277,7 @@ section:nth-child(2n+1){
     border-radius: 50%;
     width: 0.5rem;
     height: 0.5rem;
-    background-color:red;
+    background-color: grey;
     top: 28%;
     right: -12.5%;
     z-index: 1;
@@ -267,7 +289,7 @@ section:nth-child(2n+1){
     border-radius: 50%;
     width: 0.5rem;
     height: 0.5rem;
-    background-color:red;
+    background-color: grey;
     top: 28%;
     left: -9%;
     z-index: 1;
